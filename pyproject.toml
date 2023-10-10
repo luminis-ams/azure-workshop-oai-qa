@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "azure-luminis-workshop-oai-qa"
+version = "0.1.0"
+description = ""
+authors = ["Egor Dmitriev <egor.dmitriev@luminis.eu>"]
+readme = "README.md"
+packages = [{include = "workshop_oai_qa"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.1"
+azure-identity = "^1.14.0"
+azure-search-documents = "11.4.0b8"
+azure-storage-blob = "^12.18.2"
+python-dotenv = "^1.0.0"
+streamlit = "^1.27.1"
+langchain = "^0.0.309"
+tiktoken = "^0.5.1"
+markdown = "^3.5"
+unstructured = "0.10.19"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+pre-commit = "^3.4.0"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,6 @@
+.venv
+.env
+WebApp.Dockerfile
+WebApp.dockerignore
+data
+infra

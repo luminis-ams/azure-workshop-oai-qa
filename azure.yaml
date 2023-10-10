@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: workshop-oai-qa
+metadata:
+  template: workshop-oai-qa@0.0.1-beta
+services:
+  backend:
+    project: .
+    language: py
+    host: appservice
+

@@ -1,0 +1,39 @@
+{
+    "type": "Microsoft.Authorization/roleDefinitions",
+    "name": "Workshop Participant",
+    "roleName": "Workshop Participant",
+    "description": "Workshop Participant",
+    "assignableScopes": [
+        "/subscriptions/13acb507-687a-4b6c-a0d1-be639119d3e7"
+    ],
+    "roleType": "CustomRole",
+    "permissions": [
+        {
+            "actions": [
+                "Microsoft.Resources/deployments/validate/action",
+                "Microsoft.Resources/deployments/write",
+                "Microsoft.Resources/deployments/read",
+                "Microsoft.Resources/subscriptions/resourceGroups/write",
+                "Microsoft.Resources/subscriptions/resourceGroups/read",
+                "Microsoft.Resources/subscriptions/resourceGroups/delete",
+                "Microsoft.Web/serverfarms/write",
+                "Microsoft.Web/serverfarms/read",
+                "Microsoft.CognitiveServices/accounts/write",
+                "Microsoft.CognitiveServices/accounts/read",
+                "Microsoft.CognitiveServices/accounts/deployments/write",
+                "Microsoft.CognitiveServices/accounts/deployments/read",
+                "Microsoft.CognitiveServices/accounts/listKeys/action",
+                "Microsoft.Search/searchServices/write",
+                "Microsoft.Search/searchServices/read",
+                "Microsoft.Search/searchServices/listAdminKeys/action",
+                "Microsoft.Authorization/roleAssignments/write",
+                "Microsoft.Authorization/roleAssignments/read",
+                "Microsoft.Resources/deployments/operationStatuses/read",
+                "Microsoft.Web/sites/*"
+            ],
+            "notActions": [],
+            "dataActions": [],
+            "notDataActions": []
+        }
+    ]
+}

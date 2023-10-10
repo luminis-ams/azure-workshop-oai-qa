@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  streamlit:
+    build: .
+    ports:
+        - 80:80
+    networks:
+      - deploy_network
+    container_name: streamlit
+
+networks:
+  deploy_network:
+    driver: bridge
