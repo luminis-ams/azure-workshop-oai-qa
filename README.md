@@ -12,7 +12,6 @@ This workshop will show you how you can create such AI powered assistant that op
 * [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 > If you are following the live hands-on workshop, you will be provided with a free Azure subscription.
-> Make sure you send us your email address through [this form](https://forms.office.com/e/A7AK9efySs) so we can send you the invitation
 > 
 > If you are following the workshop on your own, you will need to have an Azure subscription. You can create a free Azure subscription [here](https://azure.microsoft.com/en-us/free/).
 
